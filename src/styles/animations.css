@@ -1,0 +1,55 @@
+.sliding {
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.sliding-right {
+  animation-name: slide-right;
+}
+
+.sliding-left {
+  animation-name: slide-left;
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translate(0, 0);
+  }
+  5% {
+    transform: translate(0, 30px);
+  }
+  45% {
+    transform: translate(220px, 30px);
+  }
+  55% {
+    transform: translate(220px, -30px);
+  }
+  95% {
+    transform: translate(0, -30px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translate(0, 0);
+  }
+  5% {
+    transform: translate(0, -30px);
+  }
+  45% {
+    transform: translate(-220px, -30px);
+  }
+  55% {
+    transform: translate(-220px, 30px);
+  }
+  95% {
+    transform: translate(0, 30px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}

@@ -11,6 +11,9 @@
 .hM {
   font-size: 30px;
 }
+.pXXL {
+  font-size: 60px;
+}
 .pXL {
   font-size: 20px;
 }
@@ -33,4 +36,7 @@
 }
 .text-white {
   color: white;
+}
+.text-green {
+  color: #b9ff66;
 }
